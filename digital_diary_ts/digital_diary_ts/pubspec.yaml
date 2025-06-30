@@ -1,0 +1,42 @@
+name: digital_diary_ts
+description: A secure digital diary app with PIN login, note taking, attachments, PDF export, and modern UI.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  path_provider: ^2.1.2
+  shared_preferences: ^2.2.2
+  image_picker: ^1.0.7
+  file_selector: ^1.0.2
+  audioplayers: ^5.2.1
+  table_calendar: ^3.0.9
+  pdf: ^3.10.6
+  printing: ^5.11.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icon/
+    - assets/images/
+    - assets/audio/
